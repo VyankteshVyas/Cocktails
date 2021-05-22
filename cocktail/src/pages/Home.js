@@ -1,10 +1,13 @@
 import React from 'react'
+import SearchForm from '../components/SearchForm'
+import CocktailList from '../components/CocktailList'
 
 const Home=()=>{
     return (
-        <div>
-            <h2>Home Component</h2>
-        </div>
+        <main>
+            <SearchForm/>
+            <CocktailList/>
+        </main>
     )
 }
 
